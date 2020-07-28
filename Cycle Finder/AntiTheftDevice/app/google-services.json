@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "841004181545",
+    "firebase_url": "https://antitheft-device.firebaseio.com",
+    "project_id": "antitheft-device",
+    "storage_bucket": "antitheft-device.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841004181545:android:0ad397159f01938d",
+        "android_client_info": {
+          "package_name": "com.antu.bazinga.antitheftdevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841004181545-0pndsudcd669b7oo9c1lvb8mbsru6a4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.antu.bazinga.antitheftdevice",
+            "certificate_hash": "52597ba3ab88743d7c9f63e19859b261a5f9a1f5"
+          }
+        },
+        {
+          "client_id": "841004181545-57hb6fm4cqn1qrmle85o2dumcrvb6hos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6xQ4qftZbjhSMRdcUfBqVP-zCOxDIQ1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841004181545-57hb6fm4cqn1qrmle85o2dumcrvb6hos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

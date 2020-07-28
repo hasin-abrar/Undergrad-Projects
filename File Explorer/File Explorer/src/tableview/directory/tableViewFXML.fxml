@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorLayout" prefHeight="455.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableview.directory.TableViewFXMLController">
+   <children>
+      <TableView fx:id="directoryTable" layoutX="226.0" layoutY="73.0" prefHeight="367.0" prefWidth="324.0">
+        <columns>
+          <TableColumn fx:id="icon" prefWidth="75.0" text="Icon" />
+          <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="size" prefWidth="75.0" text="Size" />
+            <TableColumn fx:id="dateModified" prefWidth="112.0" text="Date Modified" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="43.0" prefHeight="19.0" prefWidth="38.0" text="CD" textAlignment="CENTER" />
+      <TextField fx:id="directoryText" layoutX="63.0" layoutY="40.0" prefHeight="19.0" prefWidth="484.0" promptText="Directory" />
+      <Button fx:id="toogleButton" layoutX="468.0" layoutY="14.0" mnemonicParsing="false" onAction="#toogleButtonAction" text="Toogle View" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+wing = 140;
+	if(mox% wing==0){
+		iShowBMP(mo,30,"bird_1.bmp");
+		moy++;
+		//mo++;
+		if(moy%wing==0) mox++;
+		mo+=0.08;
+		if(mo>1024) mo = 0;
+	}
+	if(moy%wing==0) {
+		iShowBMP(mo,30,"bird_2.bmp");
+		mox++;
+		mo+=0.08;
+		if(mox%wing==0) moy++;
+		if(mo>1024) mo = 0;
+	}
+	
+
+double mo;

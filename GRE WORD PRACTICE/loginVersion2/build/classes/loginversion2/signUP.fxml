@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginversion2.SignUPController">
+   <children>
+      <ImageView fitHeight="452.0" fitWidth="622.0" pickOnBounds="true">
+        <image>
+            <Image url="SourceImages/SignUp.jpg">
+                
+            </Image>
+        </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="159.0" layoutY="34.0" prefHeight="50.0" prefWidth="323.0" text="It's free and always will be!" textFill="#f5f4f4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user" layoutX="250.0" layoutY="108.0" prefHeight="39.0" prefWidth="232.0" promptText="username" />
+      <Label alignment="CENTER" layoutX="137.0" layoutY="108.0" prefHeight="39.0" prefWidth="107.0" text="Name" textFill="#fcf9f9">
+         <font>
+            <Font name="Constantia Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="137.0" layoutY="163.0" prefHeight="39.0" prefWidth="107.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="137.0" layoutY="287.0" prefHeight="39.0" prefWidth="107.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="105.0" text="*" textFill="#ff2c2c">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="160.0" text="*" textFill="#ff2c2c">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="438.0" layoutY="390.0" prefHeight="23.0" prefWidth="182.0" text="* recommended" textFill="#fcfcfc">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUpButton" layoutX="391.0" layoutY="374.0" mnemonicParsing="false" onAction="#signUp" prefHeight="32.0" prefWidth="94.0" text="SIGN UP" />
+      <TextField fx:id="email" layoutX="250.0" layoutY="287.0" prefHeight="39.0" prefWidth="232.0" promptText="email address" />
+      <Label alignment="CENTER" layoutX="143.0" layoutY="228.0" prefHeight="39.0" prefWidth="107.0" text="Confirm Password" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="229.0" text="*" textFill="#ff2c2c">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="response" alignment="CENTER_RIGHT" layoutX="159.0" layoutY="341.0" prefHeight="23.0" prefWidth="323.0" text="PLEASE FILL UP THE EMPTY BOXES" textFill="WHITE" />
+      <Button fx:id="alreadyButton" layoutX="191.0" layoutY="374.0" mnemonicParsing="false" onAction="#signInscreen" prefHeight="32.0" prefWidth="151.0" text="Already have an account?" />
+      <PasswordField fx:id="pass" layoutX="250.0" layoutY="173.0" prefHeight="39.0" prefWidth="232.0" promptText="password" />
+      <PasswordField fx:id="confirmPass" layoutX="250.0" layoutY="228.0" prefHeight="39.0" prefWidth="232.0" promptText="confirm password" />
+   </children>
+</AnchorPane>

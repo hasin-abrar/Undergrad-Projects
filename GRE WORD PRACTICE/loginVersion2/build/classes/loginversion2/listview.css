@@ -1,0 +1,13 @@
+
+/* 
+    Created on : Jun 9, 2016, 12:32:44 AM
+    Author     : _bazinga
+*/
+
+.list-cell
+{
+    -fx-background-color: black;
+}
+.list{
+    -fx-background-color: greenyellow;
+}

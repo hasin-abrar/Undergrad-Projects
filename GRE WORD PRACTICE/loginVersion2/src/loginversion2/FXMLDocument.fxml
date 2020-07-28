@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginversion2.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="451.0" fitWidth="679.0" layoutX="-7.0" layoutY="-7.0" pickOnBounds="true">
+        <image>
+            <Image url="SourceImages/Main Page.jpg">
+                
+            </Image>
+        </image>
+      </ImageView>
+      <PasswordField fx:id="pass" layoutX="405.0" layoutY="189.0" prefHeight="43.0" prefWidth="199.0" promptText="Password" />
+      <TextField fx:id="username" layoutX="405.0" layoutY="127.0" prefHeight="43.0" prefWidth="199.0" promptText="Username" />
+      <Button fx:id="login" layoutX="515.0" layoutY="309.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="25.0" prefWidth="89.0" text="Login" />
+      <CheckBox fx:id="showpassCheckBox" layoutX="405.0" layoutY="272.0" mnemonicParsing="false" text="Show Password" textFill="#284bfc" />
+      <Label fx:id="confirm" layoutX="405.0" layoutY="233.0" prefHeight="25.0" prefWidth="199.0" text="Please type in your password" textFill="#ff6666" />
+      <Button fx:id="signUp" layoutX="405.0" layoutY="309.0" mnemonicParsing="false" onAction="#signUpbutton" prefHeight="25.0" prefWidth="89.0" text="Sign Up" />
+      <TextField fx:id="passTextField" layoutX="405.0" layoutY="189.0" prefHeight="43.0" prefWidth="199.0" />
+      <Button fx:id="exitButton" layoutX="565.0" layoutY="52.0" mnemonicParsing="false" onAction="#exitButtonClicked" prefHeight="25.0" prefWidth="52.0" text="EXIT" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".startMonitor">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="299dp"
+            android:layout_height="356dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginTop="38dp"
+            android:fontFamily="cursive"
+            android:text="Your vehicle is under observation. If your vehicle is moved, you will be alerted. THANK YOU!!"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+
+        <!--<Button-->
+            <!--android:layout_width="247dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="110dp"-->
+            <!--android:background="@drawable/button3"-->
+            <!--android:text="Stop Monitoring"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textStyle="normal"-->
+            <!--tools:layout_editor_absoluteX="67dp"-->
+            <!--tools:layout_editor_absoluteY="240dp" />-->
+
+
+        <Button
+            android:layout_width="244dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/backbutton"
+            android:text="Go Back"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:onClick="goBack"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="240dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

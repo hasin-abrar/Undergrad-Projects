@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorLayout" prefHeight="455.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableview.directory.TilesViewFXMLController">
+   <children>
+      <ScrollPane fx:id="directoryScrollPane" layoutX="224.0" layoutY="85.0" prefHeight="367.0" prefWidth="338.0">
+         <content>
+            <TilePane fx:id="directoryTilePane" prefHeight="367.0" prefWidth="338.0" />
+         </content>
+      </ScrollPane>
+      <TextField fx:id="directoryText" layoutX="73.0" layoutY="40.0" prefHeight="19.0" prefWidth="484.0" promptText="Directory" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="41.0" prefHeight="19.0" prefWidth="38.0" text="CD" textAlignment="CENTER" />
+      <Button fx:id="toogleButton" layoutX="475.0" layoutY="8.0" mnemonicParsing="false" onAction="#toogleButtonAction" text="Toogle View" />
+   </children>
+</AnchorPane>
